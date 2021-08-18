@@ -1,0 +1,173 @@
+/********************** TAG SELECTOR *************************/
+
+body {
+  background-color: #F3F3F3;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+  padding: 3% 0;
+}
+
+/********************* CLASSES *****************************/
+
+.top-container{
+  position: relative;
+}
+
+.cover-img {
+  width: 100%;
+  max-height: 100vh;
+}
+
+.pp{
+  position: absolute;
+  left: 15%;
+  top: 37%;
+  width: 18%;
+}
+
+.myButton {
+  position: absolute;
+  top: 65%;
+  right: 19%;
+
+	box-shadow: 0 10px 14px -7px #DA0037;
+	background:linear-gradient(to bottom, #DA0037 5%, #BD4B4B 100%);
+	background-color:#DA0037;
+	border-radius:100px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Merriweather', serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 11px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #DA0037;
+}
+.myButton:hover {
+  box-shadow: 0 10px 14px -7px #2C394B;
+	background:linear-gradient(to bottom, #2C394B 5%, #334756 100%);
+  text-shadow:0 1px 0 #2C394B;
+	background-color:#2C394B;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.text1{
+  color: #F3F3F3;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  top: 35%;
+  right: 15%;
+}
+
+.text2{
+  color: #F3F3F3;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 48%;
+  right: 19%;
+}
+
+.intro{
+
+  width: 60%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.justify{
+  text-align: left;
+}
+.education{
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.cell{
+  text-align: left;
+}
+
+.technical-skills{
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.projects{
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.button{
+  margin: 5% auto;
+
+  box-shadow: 0 10px 14px -7px #DA0037;
+  background:linear-gradient(to bottom, #DA0037 5%, #BD4B4B 100%);
+  background-color:#DA0037;
+  border-radius:100px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: 'Merriweather', serif;
+  font-size:17px;
+  font-weight:bold;
+  padding:12px 11px;
+  text-decoration:none;
+  text-shadow:0 1px 0 #DA0037;
+}
+
+.button:hover {
+  box-shadow: 0 10px 14px -7px #2C394B;
+	background:linear-gradient(to bottom, #2C394B 5%, #334756 100%);
+  text-shadow:0 1px 0 #2C394B;
+	background-color:#2C394B;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #2B2B2B;
+}
+
+.footer-link{
+  color:#F3F3F3;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+  color:#DA0037;
+}
+.footer-copy{
+  color:#EAF6F6;
+  font-size:0.8rem;
+  width: 50%;
+  margin:2% auto 0 auto;
+
+}
+
+.a{
+  margin-right:30px;
+}
+.b{
+  margin-right: 30px;
+}
